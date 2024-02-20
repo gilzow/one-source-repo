@@ -6,5 +6,5 @@
 # Full list of available services: https://docs.platform.sh/add-services.html#available-services
 db:
     type: mariadb:10.4
-    disk: !include project/db-disk.yaml
+    disk: !include db-disk.yaml
     #disk: 2048
